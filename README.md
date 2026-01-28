@@ -1,40 +1,40 @@
-# Análisis de Negocio: Optimización de Marketing para Showz
+# Business Analysis: Marketing Optimization for Showz
 
-Este repositorio contiene un análisis exhaustivo enfocado en la optimización de los gastos de marketing para **Showz**, una empresa dedicada a la venta de entradas de eventos. A través de un análisis de datos basado en cohortes y métricas de negocio, se busca identificar patrones de comportamiento y rentabilidad de los usuarios.
+This repository contains a comprehensive analysis focused on optimizing marketing expenses for **Showz**, a company dedicated to selling event tickets. Through cohort-based data analysis and business metrics, the goal is to identify user behavior patterns and profitability.
 
-## Objetivo del Proyecto
+## Project Objective
 
-En este análisis, el objetivo es determinar la eficiencia de las inversiones en marketing mediante la investigación de:
-* El comportamiento de uso del servicio por parte de los clientes.
-* El ciclo de compra (cuándo inician su primera compra).
-* La rentabilidad por cliente (**LTV** - Customer Lifetime Value).
-* El punto de equilibrio entre los ingresos y los costos de adquisición (**CAC** - Customer Acquisition Cost).
+In this analysis, the objective is to determine the efficiency of marketing investments by investigating:
+* Customer service usage behavior.
+* Purchase cycle (when they start their first purchase).
+* Profitability per customer (**LTV** - Customer Lifetime Value).
+* Break-even point between revenue and acquisition costs (**CAC** - Customer Acquisition Cost).
 
-## Datos Utilizados
+## Data Used
 
-El análisis se basa en tres conjuntos de datos clave del periodo 2017-2018:
-1.  **Visitas**: Registros detallados de sesiones en el servidor (dispositivo, fuente de tráfico, tiempos de inicio y fin).
-2.  **Pedidos**: Historial de transacciones realizadas por los usuarios.
-3.  **Gastos**: Estadísticas de inversión en marketing desglosadas por fuente y fecha.
+The analysis is based on three key datasets from the 2017-2018 period:
+1.  **Visits**: Detailed server session records (device, traffic source, start and end times).
+2.  **Orders**: Transaction history of users.
+3.  **Costs**: Marketing investment statistics broken down by source and date.
 
-## Resumen del Análisis
+## Analysis Summary
 
-El proyecto sigue una estructura lógica de análisis de datos:
-*   **Procesamiento de Datos**: Limpieza, conversión de tipos y optimización de memoria.
-*   **Análisis Exploratorio (EDA)**: Análisis de usuarios activos (DAU, WAU, MAU) y métricas de retención.
-*   **Cálculo de Métricas**:
-    *   Generación de ingresos por cohorte.
-    *   Cálculo de CAC por fuente.
-    *   Análisis de ROI/ROMI para determinar la eficacia de cada canal.
+The project follows a logical data analysis structure:
+*   **Data Processing**: Cleaning, type conversion, and memory optimization.
+*   **Exploratory Data Analysis (EDA)**: Analysis of active users (DAU, WAU, MAU) and retention metrics.
+*   **Metric Calculation**:
+    *   Revenue generation by cohort.
+    *   CAC calculation by source.
+    *   ROI/ROMI analysis to determine each channel's effectiveness.
 
-## Conclusiones Principales
+## Main Conclusions
 
-A lo largo de la investigación, se han identificado canales de marketing con diferentes niveles de efectividad, observando en qué momento las cohortes comienzan a ser rentables para el negocio y recomendando ajustes en la distribución del presupuesto para maximizar el retorno de inversión.
+Throughout the investigation, marketing channels with different levels of effectiveness have been identified. We observed when cohorts start becoming profitable for the business and recommended adjustments in budget distribution to maximize return on investment.
 
 ---
 
-### Tecnologías Utilizadas
+### Technologies Used
 *   Python 3.x
-*   Pandas (Análisis y manipulación de datos)
-*   Matplotlib & Seaborn (Visualización)
-*   Análisis de Cohortes (Cálculo de LTV y Retención)
+*   Pandas (Data analysis and manipulation)
+*   Matplotlib & Seaborn (Visualization)
+*   Cohort Analysis (LTV and Retention calculation)
